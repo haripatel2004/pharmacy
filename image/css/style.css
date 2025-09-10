@@ -1,0 +1,36 @@
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: blue!important;;
+   /* color: var(--bs-navbar-active-color)!important;*/
+    font-weight: 400;
+    font-size:large;
+    
+}
+
+/* ICON */
+ i:hover{
+    padding: 6px !important;
+    background-color: blue !important;
+    transition: transform .2s !important;
+}
+i{ 
+    background: none !important;
+    border-radius: 50% !important;
+}
+
+.nav-link.active:hover{box-shadow: 10px 10px 40px black ,-10px -10px 40px black; }
+.bi:hover {color:#888888;}
+
+/* BLOG & CARD */
+#bo:hover{box-shadow: 10px 10px 40px black ,-10px -10px 40px black; }
+
+
+
+/* For carousel */
+.c-item .c-img{
+    display: block;
+    max-width: 100%;
+    height: 530px !important;
+}
+
+
